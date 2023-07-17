@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@800&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hometown Homepage</title>
+    <style>
+        body{
+            text-align: center;
+            margin: 0;
+            font-family: Dancing Script, cursive;
+            background-color: #d5e5ff;
+        }
+        .header{
+            background-image: url(lahorefort.jpg);
+            background-size: cover;
+            color: black;
+            border-bottom: 10px solid #b7d2fa;
+        }
+        #main_heading{
+            padding-top: 100px;
+        }
+        #sub_heading{
+            padding-bottom: 100px;
+        }
+        .img1, .img2, .img3, .img4{
+            width: 150px;
+            border-radius: 50%;
+        }
+        .activity_section{
+            background-color: #b7d2fa;
+            border: 10px solid #b7d2fa
+        }
+        #act_heading{
+            padding-top: 20px;
+            padding-bottom: 30px;
+        }
+        #fourimages{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+        .amnaimage{
+            width: 150px;
+            border-radius: 50px;
+            margin: auto;
+            padding: auto;
+        }
+        .guide{
+            background-color: #6a9ce7;
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+            width: 400px;
+            margin:80px auto 50px auto;
+            padding: auto;
+            border-radius: 50px;
+            border: 5px solid #4a8af1;
+        }
+        #guidepara{
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Main header -->
+    <div class="header">
+        <h1 id="main_heading">Visit Lahore</h1>
+        <h2 id="sub_heading">The City of Gardens</h2>
+    </div>
+    <!-- Activity Section -->
+    <div class="activity_section">
+        <h1 id="act_heading">Top four activities to do in Lahore </h1>
+        <div id="fourimages">
+        <!-- About mosque -->
+        <div class="Mosque">
+             <img src="badshahi_mosque.jpg" alt="badshahi mosque image" class="img1"> 
+             <h3>Badshahi Mosque</h3>
+             <p>Beautiful Mosque <br> representing the <br> great architenture of <br> Mughals.</p>
+        </div>
+         <!-- About gardens -->
+        <div>
+            <img src="Shalimar-Garden.jpg" alt="shalimar garden image" class="img2">
+            <h3>Shalimar Gardens</h3>
+            <p>The Shalimar Garden's <br> contain the most <br> waterworks of any <br> Mughal Garden.</p>
+        </div>
+        <!-- Sports -->
+     <div>
+        <img src="cricket.jpg"
+        alt="cricket image" class="img3">
+        <h3>Street Sports</h3>
+        <p>Street cricket rules the <br> heart of Lahore.</p>
+    </div>
+        <!-- GC uni -->
+      <div>  
+        <img src="gcuni.jpg" alt="gcuni image" class="img4">
+        <h3>GC University</h3>
+        <p> One of the oldest seats <br> of learning in the <br> Muslim world.</p>
+    </div>  
+    </div>
+    </div>
+        <!-- Guide -->
+    <div class="guide">
+        <img src="amnaimg.jpeg" alt="my image" class="amnaimage">
+        <div>
+        <h1>Your Guide</h1>
+        <p id="guidepara">I'have been living in Lahore for almost a decade now, so I can show you all of its worth visiting places.</p>
+        <h3>Amna Asim</h3>
+    </div>
+    </div>
+
+</body>
+</html>
